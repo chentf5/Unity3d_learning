@@ -296,7 +296,7 @@ An asset is representation of any item that can be used in your game or project.
      - 了解 OnGUI() 事件，提升 debug 能力
      - 提升阅读 API 文档能力
 
-   [井字棋小游戏代码传送门]()
+   [井字棋小游戏代码传送门](https://github.com/chentf5/Unity3d_learning/tree/master/hw2/TicTacToe)
 
 3. 思考题【选做】
 
