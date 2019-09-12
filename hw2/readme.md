@@ -125,7 +125,7 @@ An asset is representation of any item that can be used in your game or project.
     
     第二个选择框是Transform，可以定义物体的位置，旋转角度的，缩放（大小）
     
-    ![](img/1_5.png)
+    ![](img/1_5.PNG)
     
     第三个选择框是Mesh Fitter，网格过滤器从资源中获取网格，并将其传递给网格渲染器以在屏幕上进行渲染。
     
@@ -135,11 +135,11 @@ An asset is representation of any item that can be used in your game or project.
     
     静态复选框关于游戏对象上的静态复选框，以及不同的激活模式。
     
-    ![](img/1_7.png)
+    ![](img/1_7.PNG)
     
     第五个选择框是Box Colider，The Box Collider is a basic cuboid-shaped collision primitive.可以调整坐标系的位置、大小。
     
-    ![](img/1_8.png)
+    ![](img/1_8.PNG)
     
     第六个选择框是Default-Material
     
@@ -187,7 +187,7 @@ An asset is representation of any item that can be used in your game or project.
       }
   ```
 
-  ![](img/1_9.png)
+  ![](img/1_9.PNG)
 
   
 
@@ -218,7 +218,7 @@ An asset is representation of any item that can be used in your game or project.
       }
   ```
 
-  ![](img/1_10.png)
+  ![](img/1_10.PNG)
 
   - 遍历对象树
 
@@ -238,7 +238,7 @@ An asset is representation of any item that can be used in your game or project.
       }
   ```
 
-  ![](img/1_11.png)
+  ![](img/1_11.PNG)
 
   - 清除所有子对象
 
@@ -257,7 +257,7 @@ An asset is representation of any item that can be used in your game or project.
   }
   ```
 
-  ![](img/1_12.png)
+  ![](img/1_12.PNG)
 
   
 
@@ -296,7 +296,7 @@ An asset is representation of any item that can be used in your game or project.
      - 了解 OnGUI() 事件，提升 debug 能力
      - 提升阅读 API 文档能力
 
-   [井字棋小游戏代码传送门]()
+   [井字棋小游戏代码传送门](https://github.com/chentf5/Unity3d_learning/tree/master/hw2/TicTacToe)
 
 3. 思考题【选做】
 
@@ -333,7 +333,7 @@ An asset is representation of any item that can be used in your game or project.
      }
      ```
      
-     ![](img/1_13.png)
+     ![](img/1_13.PNG)
      
    - 一个游戏对象用许多部件描述不同方面的特征。我们设计坦克（Tank）游戏对象不是继承于GameObject对象，而是 GameObject 添加一组行为部件（Component）。
      - 这是什么设计模式？
