@@ -38,15 +38,15 @@ public class GUITest : MonoBehaviour
 
                 if (qipan[i, j] == 1 && player != 0)
                 {
-                    GUI.Button(new Rect(50 + i * 50, 100 + j * 50, 50, 50), "1");
+                    GUI.Button(new Rect(250 + i * 50, 200 + j * 50, 50, 50), "O");
                 }
                 else if (qipan[i, j] == 2 && player != 0)
                 {
-                    GUI.Button(new Rect(50 + i * 50, 100 + j * 50, 50, 50), "2");
+                    GUI.Button(new Rect(250 + i * 50, 200 + j * 50, 50, 50), "X");
                 }
                 else if (qipan[i, j] == 0 && player != 0)
                 {
-                    if (GUI.Button(new Rect(50 + i * 50, 100 + j * 50, 50, 50), " "))
+                    if (GUI.Button(new Rect(250 + i * 50, 200 + j * 50, 50, 50), " "))
                     {
                         if (isWin == 0)
                         {
@@ -57,7 +57,7 @@ public class GUITest : MonoBehaviour
                 }
                 else
                 {
-                    if (GUI.Button(new Rect(50 + i * 50, 100 + j * 50, 50, 50), " "))
+                    if (GUI.Button(new Rect(250 + i * 50, 200 + j * 50, 50, 50), " "))
                     {
 
                     }
@@ -69,14 +69,14 @@ public class GUITest : MonoBehaviour
         //开始键
         if(player == 0)
         {
-            if (GUI.Button(new Rect(75, 50, 100, 30), "START"))
+            if (GUI.Button(new Rect(275, 150, 100, 30), "START"))
                     {
                         player = 1;
                     }
         }
         else
         {
-            if (GUI.Button(new Rect(75, 50, 100, 30), "RESTAET"))
+            if (GUI.Button(new Rect(275, 150, 100, 30), "RESTAET"))
             {
                 reset();
                 player = 1;
@@ -101,7 +101,7 @@ public class GUITest : MonoBehaviour
             GUI.Label(new Rect(300, 80, 200, 50), "No one win...");
         }
         //title
-        GUI.Label(new Rect(300, 20, 200, 50), "welcome to 井字棋");
+        GUI.Label(new Rect(275, 20, 200, 50), "welcome to 井字棋");
     }
     void reset()
     {
@@ -129,8 +129,8 @@ public class GUITest : MonoBehaviour
             }
         }
 
-        if ((qipan[0, 0] == qipan[1, 1]) && (qipan[1, 1] == qipan[2, 2])) return qipan[0, 0];
-        if ((qipan[0, 2] == qipan[1, 1]) && (qipan[1, 1] == qipan[2, 0])) return qipan[0, 0];
+        if ((qipan[0, 0] == qipan[1, 1]) && (qipan[1, 1] == qipan[2, 2]) && qipan[0, 0] != 0) return qipan[0, 0];
+        if ((qipan[0, 2] == qipan[1, 1]) && (qipan[1, 1] == qipan[2, 0]) && qipan[0, 2] != 0) return qipan[0, 2];
         return 0;
     }
 }
