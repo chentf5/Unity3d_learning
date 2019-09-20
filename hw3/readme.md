@@ -105,7 +105,7 @@
 
   添加一个Trail Render组件记录行星运动轨迹
 
-  ![](D:\c31\3d\Unity3d_learning\hw3\1.PNG)
+  ![](1.PNG)
 
   ```
   using System.Collections;
@@ -230,7 +230,7 @@
 
 - 请将游戏中对象做成预制
 
-![](D:\c31\3d\Unity3d_learning\hw3\2.PNG)
+![](2.PNG)
 
 - 在 GenGameObjects 中创建 长方形、正方形、球 及其色彩代表游戏中的对象。
 - 使用 C# 集合类型 有效组织对象
@@ -242,7 +242,13 @@
 
 效果图
 
-![](D:\c31\3d\Unity3d_learning\hw3\3.PNG)
+![](3.PNG)
+
+
+
+项目传送门
+
+[项目传送门]: https://github.com/chentf5/Unity3d_learning/tree/master/hw3/PriestAndDevil
 
 
 
