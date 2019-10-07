@@ -59,6 +59,7 @@
      <Compile Include="Assets\Base.cs" />
      <Compile Include="Assets\Click.cs" />
      <Compile Include="Assets\FirstControl.cs" />
+     <Compile Include="Assets\Starfield Skybox\Demo\Script\LookCamera.cs" />
      <Compile Include="Assets\User.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/c31/3d/Unity3d_learning/hw4/PriestAndDevil/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
